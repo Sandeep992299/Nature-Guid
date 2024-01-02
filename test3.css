@@ -383,10 +383,12 @@ ul{
   color: #25c768;
   padding-left: 10px;
 }
-.social-links img{
-  width: 300px;
-  height: 150px;
-  background-color: #000;
+.social-links i{
+  width: 40px;
+  height: 35px;
+  margin-left: 2px;
+  color: #ffffff;
+  cursor: pointer;
 }
 @media(max-width:996px){
   .footer-col{
