@@ -285,7 +285,7 @@ header .navbar ul li:hover >ul{
     background-color: aliceblue;
     top: 700px;
     height: fit-content;
-    z-index: 5;
+    z-index: 10;
   }
   .content-area p {
     font-weight: bold;
