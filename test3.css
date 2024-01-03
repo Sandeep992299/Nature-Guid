@@ -420,6 +420,21 @@ ul{
   margin-bottom: 0%;
 
 }
+.header-main .navbar{
+  z-index: 3;
+  
+}
+
+@media(max-width:991px){
+  .navbar{
+    z-index: 0;
+  }
+}
+@media(max-width:991px){
+  .content-area{
+    z-index: 5;
+  }
+}
 
 
   
