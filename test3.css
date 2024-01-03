@@ -232,6 +232,7 @@ header .navbar ul li:hover >ul{
     top: 0;
     left: 0;
     z-index: 3;
+    height:100px;
   }
   @media(max-width:991px){
     .header-main{
