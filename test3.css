@@ -14,6 +14,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 .logo .img{
   width: 20px;
@@ -33,6 +34,7 @@ header{
 header .navbar ul{
     list-style: none;
     text-decoration: none;
+    
 }
 header .navbar ul li{
     position: relative;
@@ -143,8 +145,7 @@ header .navbar ul li:hover >ul{
 @media(max-width:991px){
   .header-main{
     padding: 0px;
-    z-index:3;
-    height:100px;
+    z-index: 3;
   }
   .header-main .label{
     display: initial;
@@ -154,7 +155,6 @@ header .navbar ul li:hover >ul{
     top: 100px;left: 0;right: 0;
     background-color: #ffffff;
     border-top: 2px solid black;
-    z-index:3;
   }
 
   .header-main .navbar ul li a {
@@ -177,6 +177,7 @@ header .navbar ul li:hover >ul{
   .header-main .navbar ul li{
     width: 100%;
     background-color: #ffffff;
+   
   }
  
   .header-main .navbar ul li ul a{
@@ -215,6 +216,7 @@ header .navbar ul li:hover >ul{
     top: 0;
     left: 0;
     right: 0;
+    
 
 
   }
@@ -229,8 +231,14 @@ header .navbar ul li:hover >ul{
     position: fixed;
     top: 0;
     left: 0;
-    z-index:3;
-    height:100px;
+    z-index: 3;
+  }
+  @media(max-width:991px){
+    .header-main{
+      padding: 0px;
+      height: 100px;
+      z-index: 3;
+    }
   }
   
 .banner-area img{
@@ -239,7 +247,7 @@ header .navbar ul li:hover >ul{
   height: fit-content;
   margin-top: 10px;
   opacity: 95%;
-  z-index:0;
+  z-index: 0;
  
 }   
 
@@ -276,7 +284,7 @@ header .navbar ul li:hover >ul{
     background-color: aliceblue;
     top: 700px;
     height: fit-content;
-    z-index:1:
+    z-index: 1;
   }
   .content-area p {
     font-weight: bold;
@@ -420,6 +428,7 @@ ul{
   margin-bottom: 0%;
 
 }
+
 .header-main .navbar{
   z-index: 3;
   
@@ -435,13 +444,3 @@ ul{
     z-index: 5;
   }
 }
-
-
-  
- 
-
-
-
-
-
-
