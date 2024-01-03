@@ -143,6 +143,8 @@ header .navbar ul li:hover >ul{
 @media(max-width:991px){
   .header-main{
     padding: 0px;
+    z-index:3;
+    height:100px;
   }
   .header-main .label{
     display: initial;
@@ -152,6 +154,7 @@ header .navbar ul li:hover >ul{
     top: 100px;left: 0;right: 0;
     background-color: #ffffff;
     border-top: 2px solid black;
+    z-index:3;
   }
 
   .header-main .navbar ul li a {
@@ -226,6 +229,8 @@ header .navbar ul li:hover >ul{
     position: fixed;
     top: 0;
     left: 0;
+    z-index:3;
+    height:100px;
   }
   
 .banner-area img{
@@ -234,6 +239,7 @@ header .navbar ul li:hover >ul{
   height: fit-content;
   margin-top: 10px;
   opacity: 95%;
+  z-index:0;
  
 }   
 
@@ -270,6 +276,7 @@ header .navbar ul li:hover >ul{
     background-color: aliceblue;
     top: 700px;
     height: fit-content;
+    z-index:1:
   }
   .content-area p {
     font-weight: bold;
