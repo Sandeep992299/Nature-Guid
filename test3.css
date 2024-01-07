@@ -245,15 +245,23 @@ header .navbar ul li:hover >ul{
 .banner-area img{
   object-fit: cover;
   width: 100%;
+  max-width: 1400px;
   height: fit-content;
   margin-top: 10px;
   opacity: 95%;
   z-index: 0;
+    
  
 }   
 @media(max-width:991px){
   .banner-area img{
     visibility: hidden;
+    background-color: #deea81;
+  }
+} 
+@media(min-width:1400px){
+  .banner-area img{
+    align-items:center;
     background-color: #deea81;
   }
 }   
