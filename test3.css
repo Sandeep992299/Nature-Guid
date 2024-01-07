@@ -251,6 +251,12 @@ header .navbar ul li:hover >ul{
   z-index: 0;
  
 }   
+@media(max-width:991px){
+  .banner-area img{
+    visibility: hidden;
+    background-color: #deea81;
+  }
+}   
 
   .logo-area{
     top: 0px; 
