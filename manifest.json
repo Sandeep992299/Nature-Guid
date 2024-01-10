@@ -1,0 +1,9 @@
+{
+    "name": "Nature Guide Ceylon",
+    "short_name": "NGC",
+    "theme_color": "#21f389",
+    "background_color": "#ffffff",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/index.html"
+  }
