@@ -51,6 +51,7 @@
     font-weight: 200;
     height: fit-content;
     width: 100%;
+    padding: 15px;
 }
 .flex1 .box2{
     background-color: rgb(201, 209, 197);
@@ -58,6 +59,7 @@
     font-weight: 200;
     height: fit-content;
     width: 100%;
+    padding: 15px;
 }
 @keyframes scroll{
     0%{
